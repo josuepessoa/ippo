@@ -1,0 +1,19 @@
+#foto-home{
+  padding: 0px;
+}
+
+.carousel-item{
+  float: none;
+}
+.carousel-caption{
+  padding-bottom: 500px;
+
+}
+
+.font-titulo{
+  font-size: 56px;
+}
+
+.font-text{
+  font-size: 22px;
+}

@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ippo"
+    }
+  },
+  "defaultProject": "ippo",
+  "cli": {
+    "analytics": "8e9706fd-9d92-48a8-93c4-05160241cc7c"
+  }
 }
