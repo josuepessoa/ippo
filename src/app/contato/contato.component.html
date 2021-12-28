@@ -1,1 +1,27 @@
-<p>contato works!</p>
+<section class='form-contato'>
+  <Div class="form"></Div>
+  <div class="container banner-contatoWrapper">
+    <div class="banner-contato">
+      <h3 class="m-3 text-center">Informações</h3>
+      <form (ngSubmit)="contatar()">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nome:</label>
+          <input type="name" class="form-control" id="name" placeholder="Seu nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" class="form-control" id="email" placeholder="exemplo@email.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="phone" name="phone"
+          mask="(00) 0 0000-0000"
+          placeholder="99 9 9999 9999"
+          required>
+        </div>
+        <button type="submit" class=" btn btn-dark btn-block" >Contatar</button>
+
+      </form>
+    </div>
+  </div>
+</section>

@@ -12,4 +12,8 @@ export class ContatoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  contatar() : any{
+    alert("contatou")
+  }
+
 }

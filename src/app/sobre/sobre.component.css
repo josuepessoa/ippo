@@ -1,0 +1,29 @@
+
+.row {
+  margin: 0;
+}
+
+.banner-sobre {
+  color: #FFF;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 20px;
+	width: 50%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+
+}
+
+.sobre {
+  background-image: url(/assets/sobre2.png);
+	background-size: cover;
+	background-position: top center;
+  height: 100%;
+}
+
+.sobre-componente{
+  height: 100%;
+}
